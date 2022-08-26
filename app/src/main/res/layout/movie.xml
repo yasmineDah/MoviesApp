@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="250dp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/leftMargin"
+    android:orientation="vertical"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp">
+
+    <ImageView
+        android:id="@+id/movieImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/spiderman" />
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="@dimen/leftMargin"
+        android:layout_marginTop="@dimen/leftMargin"
+        android:src="@drawable/ic_star" />
+
+    <TextView
+        android:id="@+id/movieRating"
+        style="@style/movieReleaseDate"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="@dimen/leftMargin"
+        android:layout_marginTop="@dimen/leftMargin"
+        android:gravity="center"
+        android:text="6.2" />
+
+</androidx.cardview.widget.CardView>
